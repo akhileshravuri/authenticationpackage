@@ -1,12 +1,13 @@
-name: biometric_auth
+
+name: authenticationpackage  # Changed from biometric_auth to match your repo name
 version: 0.0.1
 publish_to: 'none'
 description: >
   A Flutter package that provides biometric authentication and PIN verification functionality.
   It includes support for fingerprint and secure PIN storage.
 
-homepage: https://github.com/yourusername/biometric_auth
-repository: https://github.com/yourusername/biometric_auth
+homepage: https://github.com/akhileshravuri/authenticationpackage  # Updated to your actual repo
+repository: https://github.com/akhileshravuri/authenticationpackage  # Updated to your actual repo
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
