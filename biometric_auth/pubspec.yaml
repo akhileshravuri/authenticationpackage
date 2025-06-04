@@ -1,0 +1,30 @@
+name: biometric_auth
+version: 0.0.1
+publish_to: 'none'
+description: >
+  A Flutter package that provides biometric authentication and PIN verification functionality.
+  It includes support for fingerprint and secure PIN storage.
+
+homepage: https://github.com/yourusername/biometric_auth
+repository: https://github.com/yourusername/biometric_auth
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  local_auth: ^2.1.7
+  flutter_secure_storage: ^9.0.0
+  logging: ^1.2.0
+  platform: ^3.1.2
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  test: ^1.21.0
+
+flutter:
