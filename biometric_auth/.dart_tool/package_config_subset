@@ -338,6 +338,10 @@ yaml
 3.4
 file:///C:/Users/91630/AppData/Local/Pub/Cache/hosted/pub.dev/yaml-3.1.3/
 file:///C:/Users/91630/AppData/Local/Pub/Cache/hosted/pub.dev/yaml-3.1.3/lib/
+authenticationpackage
+3.0
+file:///C:/authenticationbiometric/authenticationpackage/biometric_auth/
+file:///C:/authenticationbiometric/authenticationpackage/biometric_auth/lib/
 sky_engine
 3.7
 file:///C:/flutter/src/flutter/bin/cache/pkg/sky_engine/
@@ -354,8 +358,4 @@ flutter_web_plugins
 3.7
 file:///C:/flutter/src/flutter/packages/flutter_web_plugins/
 file:///C:/flutter/src/flutter/packages/flutter_web_plugins/lib/
-biometric_auth
-3.0
-file:///C:/original/appp/packages/biometric_auth/
-file:///C:/original/appp/packages/biometric_auth/lib/
 2

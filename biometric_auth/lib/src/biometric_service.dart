@@ -14,7 +14,7 @@ class BiometricService {
   Future<bool> isBiometricAvailable() async {
     try {
       _logger.info('Checking biometric availability');
-      bool available = await _localAuth.canCheckBiometrics;
+      final bool available = await _localAuth.canCheckBiometrics;
       _logger.info('Biometric availability: $available');
       return available;
     } catch (e) {
@@ -89,7 +89,7 @@ class BiometricService {
       }
 
       final String? storedPin = await _storage.read(key: _pinKey);
-      bool isValid = storedPin == pin;
+      final bool isValid = storedPin == pin;
       _logger.info('PIN verification result: $isValid');
       return isValid;
     } catch (e) {
@@ -101,7 +101,7 @@ class BiometricService {
   Future<String?> getStoredPin() async {
     try {
       _logger.info('Getting stored PIN');
-      String? pin = await _storage.read(key: _pinKey);
+      final String? pin = await _storage.read(key: _pinKey);
       _logger.info('PIN retrieved: ${pin != null}');
       return pin;
     } catch (e) {
@@ -125,7 +125,8 @@ class BiometricService {
   Future<List<BiometricType>> getAvailableBiometrics() async {
     try {
       _logger.info('Getting available biometrics');
-      List<BiometricType> types = await _localAuth.getAvailableBiometrics();
+      final List<BiometricType> types =
+          await _localAuth.getAvailableBiometrics();
       _logger.info(
           'Available biometrics: ${types.map((t) => t.toString()).join(', ')}');
       return types;
@@ -143,4 +144,3 @@ class BiometricService {
     }
   }
 }
-

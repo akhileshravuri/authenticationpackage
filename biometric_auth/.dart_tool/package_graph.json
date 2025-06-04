@@ -1,10 +1,10 @@
 {
   "roots": [
-    "biometric_auth"
+    "authenticationpackage"
   ],
   "packages": [
     {
-      "name": "biometric_auth",
+      "name": "authenticationpackage",
       "version": "0.0.1",
       "dependencies": [
         "crypto",

@@ -536,7 +536,7 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "biometric_auth",
+      "name": "authenticationpackage",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
