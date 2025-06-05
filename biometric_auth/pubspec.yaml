@@ -27,5 +27,13 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
   test: ^1.21.0
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.authenticationpackage
+        pluginClass: AuthenticationPackagePlugin
+      ios:
+        pluginClass: AuthenticationPackagePlugin  
 
 
